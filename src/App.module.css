@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3rem;
+  overflow-x: hidden;
+}
+
+.p {
+  color: white;
+  text-align: center;
+}
+
+.option-section {
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 0 0.5rem;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 1rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.options {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 40rem) and (min-height: 40rem) {
+  .option-section {
+    max-width: 1500px;
+  }
+}

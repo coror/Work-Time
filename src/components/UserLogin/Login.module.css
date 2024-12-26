@@ -1,0 +1,70 @@
+/* Center the login form vertically and horizontally */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust as needed */
+  margin-top: -7rem;
+  background-color: rgb(22, 0, 0);
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgba(80, 80, 80, 0.438);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  color: white;
+}
+
+/* Style form elements */
+.login-form label {
+  font-size: 1.2rem;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition:
+    border 0.3s ease,
+    box-shadow 0.3s ease; /* Add transition to all inputs for consistency */
+  color: black;
+}
+
+/* Add custom focus style */
+.login-form input:focus {
+    outline: 2px solid rgb(90, 90, 90); /* Set focus outline color to black */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for better visibility */
+  }
+
+/* Add this style for the initial red border */
+input.login-error {
+  border: 2px solid #f44336; /* Red border for error */
+  box-shadow: 0 0 6px rgba(244, 67, 54, 0.5); /* Red box shadow for error */
+}
+
+.login-error {
+  color: #f44336;
+}
+
+.link {
+  color: rgba(
+    255,
+    0,
+    0,
+    0.644
+  ); /* Change the color to your preferred link color */
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+}

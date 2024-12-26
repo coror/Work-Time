@@ -1,0 +1,14 @@
+[
+  { "month": "Jan24", "programming": 450 },
+  { "month": "Feb24", "programming": 500 },
+  { "month": "Mar24", "programming": 300 },
+  { "month": "Apr24", "programming": 550 },
+  { "month": "May24", "programming": 400 },
+  { "month": "Jun24", "programming": 600 },
+  { "month": "Jul24", "programming": 250 },
+  { "month": "Aug24", "programming": 350 },
+  { "month": "Sep24", "programming": 500 },
+  { "month": "Oct24", "programming": 450 },
+  { "month": "Nov24", "programming": 520 },
+  { "month": "Dec24", "programming": 580 }
+]
